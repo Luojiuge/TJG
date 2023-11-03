@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/img"
+    tools:context=".ui.user.LoginActivity">
+
+    <!-- 导入必要的类 -->
+    <!-- 这部分不需要放在 XML 文件里 -->
+
+    <!-- 创建类 -->
+    <!-- 这部分不需要放在 XML 文件里 -->
+
+    <!-- 定义界面组件 -->
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="183dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:autofillHints=""
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usernameField" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="登录"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordField"
+        />
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="336dp"
+        android:hint="用户名"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
